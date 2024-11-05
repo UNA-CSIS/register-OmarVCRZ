@@ -20,6 +20,7 @@ CREATE TABLE users
 -- username = admin
 -- password = pwd
 INSERT INTO users (username, password) VALUES ('admin', '$2y$10$6EagpQz90eekX4cIlXjWdu/iCCo3jmSPrLmm9kJ/OVzbmwHaJZGzG');
+INSERT INTO users (username, password) VALUES ('admin', 'pwd');
 
 INSERT into games (opponent, site, result) VALUES('North Georgia','Neutral','W');
 INSERT into games (opponent, site, result) VALUES('Augusta University','Neutral','W');

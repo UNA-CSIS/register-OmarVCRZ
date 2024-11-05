@@ -6,8 +6,8 @@
     </head>
     <body>
         <form action="authenticate.php" method="POST">
-            Username: <input type="text" name="user"><br>
-            Password: <input type="password" name="pwd"><br>
+            Username: <input type="text" name="user" required><br>
+            Password: <input type="password" name="pwd" required><br>
             <input type="submit">
         </form>
         <a href="register.php">Register a new login</a>
